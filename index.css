@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: space-evenly;
+    background-color: #e6f9fd;
+}
+/* navbar start */
+.logo-utama {
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50px;
+}
+.nav-kanan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+}
+navbar {
+    display: flex;
+    align-items: center; 
+    background-color: rgba(255, 255, 255, 0)
+    
+
+}
+
+navbar h2 {
+    font-family: "Oswald", sans-serif;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-left: 0px;
+    letter-spacing: 2px;
+    font-size: 19px;
+
+}
+
+.nav-coin {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-left: 0px;
+    width: 40px;
+
+}
+
+.nav-profile {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-left: 0px;
+    width: 50px;
+}
+
+
+.nav-tombol {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    position: relative;
+    gap: 80px;
+}
+
+.nav-tombol a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+
+.nav-tombol a:hover{
+    color : #68C4BA;
+}
+
+/* navbar end */
+
+/* main content part start */
+
+
+
+main {
+    width: 1400px;
+    height: 565px;
+    overflow: hidden;
+}
+
+.main-content {
+    position: relative;
+    top: 90px;
+    left: 150px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.main-content h1{
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.main-content h2 {
+    letter-spacing: 2px;
+    font-size: 40px;
+
+}
+
+.main-content h3 {
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+.main-content h4 {
+    color: #006B83;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.main-content p{
+    color: #42454A;
+    width: 300px;
+    height: 70px;
+    letter-spacing: 2px;
+}
+
+
+.order {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 190px;
+    top: 250px;
+    z-index: 1;
+    margin-right: 50px;
+}
+
+.order h2 {
+    font-size: 60px;
+  
+    
+}
+
+.harga {
+    display: flex;
+}
+
+.tombol-pesan button{
+    font-size: 16px;
+    border-radius: 7%;
+    margin-top: 40px;
+    width: 200px;
+    border: 1.5px solid #73ADC1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: 0.2s color ease-out;
+    height:50px;
+    background-image: linear-gradient(to bottom, #93D6ED,  #a7cbd8 );
+    color: white;
+    
+
+}
+
+.tombol-pesan button:hover {
+    background-image: linear-gradient(to right, #e6f9fd,  #e6f9fd);
+
+    /* background-image:linear-gradient(to right, #93D6ED, #73ADC1); */
+    color: black;
+    
+}
+
+
+/* main content part end */
+
+
+/* main-gambar part start */
+.lingkaran-bg {
+    position: absolute;
+    width: 50%;
+    z-index: -1;
+    top: -150px;
+    overflow: hidden;
+    left: 680px;
+}
+
+.lingkaran-bg2 {
+    position: absolute;
+    top: 50px;
+}
+
+.lingkaran-bg3 {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    z-index: -1;
+}
+.lingkaran-frame {
+    position: absolute;
+    width: 30%;
+    top: 140px;
+    right: 150px;
+
+}
+
+
+.gambar-utama {
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    top: 170px;
+    right: 150px;
+}
+/* main-gambar part end */
+
+
+/* second section part start */
+
+
+.bg2{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.container-about {
+    position: relative;
+    left: 250px;
+    top: 80px;
+    width: 900px;
+    height: 450px;
+    border-radius: 10%;
+    background-image: linear-gradient(to bottom, #439bff, #9bdeff);
+}
+
+
+.container-about h1 {
+    letter-spacing: 4px;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 75px;
+    font-family: "Inter", sans-serif;
+    margin-left: 230px;
+    top: 20px;
+    font-weight: 400;
+}
+
+
+.container-about p {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    margin-top: 70px;
+    margin-left: 190px;
+    color: white;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    width: 600px;
+    height: 400px;
+    text-align:left;
+    font-weight: 500;
+    line-height: 30px;
+}   
+.maskot {
+    width: 250px;
+    position: absolute;
+    top: 650px;
+    left: 150px;
+}
+
+.logo-2 {
+    position: absolute;
+    top: 620px;
+    right: 90px;
+    width: 260px;
+}
+
+/* 
+
+/* second section part end */
