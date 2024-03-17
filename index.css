@@ -363,6 +363,200 @@ section {
     position: absolute;
     right: 400px;
     top: 2200px;
+    z-index: -1;
 }
 
-/* third section part end */
+.feature-track h2{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-left: auto;
+    width: 400px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #0089C4;
+    
+}
+
+.tracker {
+    position: absolute;
+    width: 670px;
+    top: 2340px;
+    right: 10px;
+}
+
+.panah2 {
+    position: relative;
+    bottom: 40px;
+    right: -600px;
+    z-index: -1;
+}
+
+
+.feature-tracker-teks {
+    font-family: "Quicksand", sans-serif;;
+    position: absolute;
+    width: 650px;
+    font-size: 30px;
+    right: 650px;
+    top: 2130px;
+}
+
+.feature-tracker-teks h2 {
+    width: 600px;
+    margin-right:500px ;
+    margin-bottom: 80px;
+}
+
+.feature-tracker-teks h3 {
+    font-size: 30px;
+    width: 500px;
+    letter-spacing: 3px;
+}
+
+
+.lingkaran-bg6 {
+    position: absolute;
+    z-index: -1;
+    top: 2900px;
+    right: -100px;
+}
+
+
+.lingkaran-bg7 {
+    position: absolute;
+    z-index: -1;
+    top: 2800px;
+    left: 200px;
+    overflow: hidden;
+}
+
+.poin {
+    position: absolute;
+    top: 2700px;
+}
+
+.poin1 {
+    position: relative;
+    width: 300px;
+    top: 0;
+    left: 100px;
+}
+
+.poin2 {
+    position: relative;
+    width: 200px;
+    top: 167px;
+    left: 100px;
+}
+
+.poin3 {
+    position: relative;
+    width: 170px;
+    top: 280px;
+    left: -322px;
+}
+.feature-poin h2{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-left: 100px;
+    width: 400px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #0089C4;
+
+}
+
+
+.feature-poin-teks {
+    font-family: "Quicksand", sans-serif;;
+    position: absolute;
+    width: 650px;
+    font-size: 30px;
+    right: 100px;
+    top: 2700px;
+}
+
+.feature-poin-teks h2{
+    width: 600px;
+    margin-right:10px;
+    margin-bottom: 80px;
+}
+
+
+.feature-poin-teks h3 {
+    font-size: 30px;
+    width: 500px;
+    letter-spacing: 3px;
+    margin-left: 100px;
+}
+
+.panah3 {
+    position: relative;
+    bottom: -40px;
+    left: 500px;
+    z-index: -1;
+}
+
+.end{
+    position: absolute;
+    top: 3400px;
+    width: 100%;
+}
+
+.teks-akhir{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #D9D9D9, #03C19F);
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.tombol-akhir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tombol-akhir button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 7%;
+    margin-top: 80px;
+    width: 700px;
+    border: 1.5px solid #73ADC1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: 0.2s color ease-out;
+    height:150px;
+    background-image: linear-gradient(to bottom, #93D6ED,  #a7cbd8 );
+    color: white;
+}
+
+
+.tombol-akhir button:hover {
+    background-image: linear-gradient(to right, #e6f9fd,  #e6f9fd);
+
+    /* background-image:linear-gradient(to right, #93D6ED, #73ADC1); */
+    color: black;
+    
+}
+
+
+
+/* third section part end */    
+
